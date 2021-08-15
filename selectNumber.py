@@ -137,7 +137,7 @@ class grid(object):
 
 
 def guess(li):
-    model = tf.keras.models.load_model('m.model')
+    model = tf.keras.models.load_model('ready_model.model')
 
     predictions = model.predict(li)
     print(predictions[0])
